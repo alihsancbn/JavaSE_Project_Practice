@@ -12,9 +12,9 @@ public interface IFileLogData {
 
     public List<String> logFileList();
 
-    public String logFileWriter();
+    public void logFileWriter(String username, String password);
 
-    public String logFileReader();
+    public void logFileReader();
 
     public String logFileDeleter();
 
