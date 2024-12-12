@@ -1,22 +1,23 @@
 package com.alihs.files;
 
-import java.util.List;
+import java.io.File;
+
 
 public interface IFileLogData {
 
-    public String logLocalDateTime();
+    String logLocalDateTime();
 
-    public String logFileInfo();
+    String logFileInfo();
 
-    public String logFileCreator(String fileName);
+    void logFileCreator(String fileName);
 
-    public List<String> logFileList();
+    File[] logFileList();
 
-    public void logFileWriter(String username, String password);
+    void logFileWriter(File file, String text);
 
-    public void logFileReader();
+    String logFileReader(File file);
 
-    public String logFileDeleter();
+    String logFileDeleter();
 
 
 
