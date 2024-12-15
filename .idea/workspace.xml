@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598043d9-802a-41f0-a18e-9f13d64b3c21" name="Changes" comment="File management">
+    <list default="true" id="598043d9-802a-41f0-a18e-9f13d64b3c21" name="Changes" comment="File management final form&#10;login system&#10;improved management system">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alihs/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alihs/dao/IDaoGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alihs/dao/RegisterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alihs/dto/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alihs/dto/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alihs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alihs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alihs/dto/lombokDeneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alihs/test/lombokDeneme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alihs/files/FilePathDataImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alihs/files/FilePathDataImplements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alihs/files/FilePathUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alihs/files/FilePathUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alihs/files/IFileLogData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alihs/files/IFileLogData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +61,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FilePathDataImplements.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FilePathDataImplements.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Register.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.alihs.exceptions" />
@@ -128,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734019055772</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="File management">
+      <option name="closed" value="true" />
+      <created>1734031270615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734031270615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +153,7 @@
     <MESSAGE value="File" />
     <MESSAGE value="Lombok" />
     <MESSAGE value="File management" />
-    <option name="LAST_COMMIT_MESSAGE" value="File management" />
+    <MESSAGE value="File management final form&#10;login system&#10;improved management system" />
+    <option name="LAST_COMMIT_MESSAGE" value="File management final form&#10;login system&#10;improved management system" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.alihs.dto;
+package com.alihs.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

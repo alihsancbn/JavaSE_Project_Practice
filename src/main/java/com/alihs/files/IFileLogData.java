@@ -7,17 +7,17 @@ public interface IFileLogData {
 
     String logLocalDateTime();
 
-    String logFileInfo();
+    void logFileInfo();
 
-    void logFileCreator(String fileName);
+    File logFileCreator(String url);
 
     File[] logFileList();
 
-    void logFileWriter(File file, String text);
+    void logFileWriter(String username, String password);
 
-    String logFileReader(File file);
+    String logFileReader();
 
-    String logFileDeleter();
+    void logFileDeleter();
 
 
 
