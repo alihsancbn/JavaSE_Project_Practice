@@ -3,7 +3,7 @@ package com.alihs.dto;
 import com.alihs.roles.ERoles;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
+
 
 
 import java.io.Serial;

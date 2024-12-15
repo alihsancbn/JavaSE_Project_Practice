@@ -1,7 +1,6 @@
 package com.alihs.dao;
 
 import com.alihs.files.FilePathDataImplements;
-import com.alihs.files.FilePathUrl;
 
 import java.io.File;
 
